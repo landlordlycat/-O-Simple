@@ -338,6 +338,8 @@
 .markdown-body td,
 .markdown-body th {
   padding: 0;
+  /* 防止表格文本的样式出错 */
+  color: var(--article-default-font-color) !important;
 }
 
 .markdown-body details summary {
